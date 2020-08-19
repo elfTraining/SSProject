@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Website is opened]]>
+    </line>
+    <line>
+      <![CDATA[Login successfully]]>
+    </line>
+    <line>
+      <![CDATA[Loggedout successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-08-19T12:33:12 IST" name="Suite" finished-at="2020-08-19T12:33:38 IST" duration-ms="25782">
+    <groups>
+    </groups>
+    <test started-at="2020-08-19T12:33:12 IST" name="Test" finished-at="2020-08-19T12:33:38 IST" duration-ms="25782">
+      <class name="com.SS.OrderMedicine.TestDemo">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.SS.OrderMedicine.TestDemo@2a32de6c]" started-at="2020-08-19T12:33:12 IST" name="configBC" finished-at="2020-08-19T12:33:22 IST" duration-ms="10305" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Website is opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.SS.OrderMedicine.TestDemo@2a32de6c]" started-at="2020-08-19T12:33:22 IST" name="configBM" finished-at="2020-08-19T12:33:35 IST" duration-ms="12434" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="smp()[pri:0, instance:com.SS.OrderMedicine.TestDemo@2a32de6c]" started-at="2020-08-19T12:33:35 IST" name="smp" finished-at="2020-08-19T12:33:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smp -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.SS.OrderMedicine.TestDemo@2a32de6c]" started-at="2020-08-19T12:33:35 IST" name="configAM" finished-at="2020-08-19T12:33:37 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Loggedout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="cnfigAC()[pri:0, instance:com.SS.OrderMedicine.TestDemo@2a32de6c]" started-at="2020-08-19T12:33:37 IST" name="cnfigAC" finished-at="2020-08-19T12:33:38 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cnfigAC -->
+      </class> <!-- com.SS.OrderMedicine.TestDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
